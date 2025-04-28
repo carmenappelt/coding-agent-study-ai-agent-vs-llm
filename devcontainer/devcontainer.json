@@ -1,8 +1,9 @@
-{
-    "name": "GitHub Copilot Agent Test Environment",
-    "hostRequirements": {
-        "memory": "8gb"
+{    "name": "GitHub Copilot Agent Test Environment",    "hostRequirements": {
+        "memory": "4gb",
+        "cpus": 2,
+        "storage": "15gb"
     },
+    "updateContentCommand": "echo 'Kostenlose Nutzung: max. 120 Core-Stunden/Monat' && sleep 2",
     "image": "mcr.microsoft.com/devcontainers/universal:2",
     "features": {
         "ghcr.io/devcontainers/features/github-cli:1": {}
@@ -17,11 +18,15 @@
                     "GitHub.copilot",
                     "GitHub.copilot-chat",
                     "GitHub.copilot-tools"
-                ],
-                "workbench.startupEditor": "none",
-                "github.copilot.editor.enableAutoCompletions": true,
+                ],                "workbench.startupEditor": "none",
+                "github.copilot.enable": true,
+                "github.copilot.chat.showMessage": true,
                 "github.copilot.chat.welcomeMessage": "always",
-                "github.copilot.defaultScope": "chat"
+                "github.copilot.chat.features.agentChat.enabled": true,
+                "github.copilot.chat.basePrefix": "@agent",
+                "workbench.panel.defaultLocation": "right",
+                "workbench.panel.opensMaximized": "always",
+                "workbench.view.extension.github-copilot-chat.visible": true
             }
         },
         "codespaces": {
