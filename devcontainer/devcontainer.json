@@ -1,17 +1,41 @@
 {
     "name": "GitHub Copilot Agent Test Environment",
+    "hostRequirements": {
+        "memory": "8gb"
+    },
     "image": "mcr.microsoft.com/devcontainers/universal:2",
     "features": {
         "ghcr.io/devcontainers/features/github-cli:1": {}
-    },
-    "customizations": {
+    },    "customizations": {
         "vscode": {
             "extensions": [
                 "GitHub.copilot",
-                "GitHub.copilot-chat"
+                "GitHub.copilot-chat",
+                "GitHub.copilot-tools"
+            ],            "settings": {
+                "github.codespaces.defaultExtensions": [
+                    "GitHub.copilot",
+                    "GitHub.copilot-chat",
+                    "GitHub.copilot-tools"
+                ],
+                "workbench.startupEditor": "none",
+                "github.copilot.editor.enableAutoCompletions": true,
+                "github.copilot.chat.welcomeMessage": "always",
+                "github.copilot.defaultScope": "chat"
+            }
+        },
+        "codespaces": {
+            "openFiles": [
+                "README.md"
             ]
         }
     },
-    "postCreateCommand": "gh auth status || echo 'Please authenticate with GitHub using gh auth login'",
-    "remoteUser": "vscode"
+    "portsAttributes": {
+        "3000": {
+            "label": "Application",
+            "onAutoForward": "openPreview"
+        }
+    },
+    "postCreateCommand": "gh auth status || echo 'Willkommen! Sie sind bereits authentifiziert und können GitHub Copilot nutzen.'",
+    "remoteUser": "codespace"
 }
