@@ -1,0 +1,25 @@
+{
+    "name": "GitHub Copilot Agent Environment",
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "github.copilot",
+                "github.copilot-chat",
+                "github.copilot-tools"
+            ],
+            "settings": {
+                "workbench.startupEditor": "none",
+                "github.copilot.enable": true,
+                "github.copilot.chat.basePrefix": "@agent"
+            }
+        },
+        "codespaces": {
+            "openFiles": ["README.md"],
+            "vscodeServer": {
+                "channel": "insiders"
+            }
+        }
+    },
+    "postCreateCommand": "echo 'Setup complete with VS Code Insiders'"
+}
