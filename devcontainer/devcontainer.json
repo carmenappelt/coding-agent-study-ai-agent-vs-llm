@@ -1,0 +1,17 @@
+{
+    "name": "GitHub Copilot Agent Test Environment",
+    "image": "mcr.microsoft.com/devcontainers/universal:2",
+    "features": {
+        "ghcr.io/devcontainers/features/github-cli:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "GitHub.copilot",
+                "GitHub.copilot-chat"
+            ]
+        }
+    },
+    "postCreateCommand": "gh auth status || echo 'Please authenticate with GitHub using gh auth login'",
+    "remoteUser": "vscode"
+}
