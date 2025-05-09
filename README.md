@@ -2,7 +2,9 @@
 
 Diese Aufgabe beinhaltet die Implementierung eines Wikipedia PDF Generators. Das Programm erlaubt es, Wikipedia-Artikel zu suchen und als PDF zu speichern.
 
-[![In Codespace öffnen](https://github.com/codespaces/badge.svg)](https://codespaces.new/carmenappelt/coding-agent-study-ai-agent-vs-llm/tree/task1-only)
+Klicken Sie auf den Button unten, um die Entwicklungsumgebung direkt im Browser zu öffnen:
+
+[![In Codespace öffnen](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=task1-only&repo=carmenappelt/coding-agent-study-ai-agent-vs-llm)
 
 ## Programm ausführen
 
