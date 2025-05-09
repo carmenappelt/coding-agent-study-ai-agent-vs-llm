@@ -1,33 +1,24 @@
-# Masterarbeit: Coding Agent Study
+# Coding Agent Study: AI Agent vs LLM
 
-Dieses Repository enthält die Implementierungsaufgaben für die Studie.
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=carmenappelt/coding-agent-study-ai-agent-vs-llm)
 
-## Aufgabe 1: Wikipedia PDF Generator
+This repository contains the code and resources for the coding agent study comparing AI agents and LLMs.
 
-Die Aufgabe finden Sie im Ordner `task_1`. 
+## Quick Start
 
-[![In Codespace öffnen](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=task1-only&repo=carmenappelt/coding-agent-study-ai-agent-vs-llm)
+1. Click the "Open in GitHub Codespaces" button above to start working with this project immediately.
+2. The development environment will be automatically set up with all necessary dependencies and tools.
+3. Once the environment is ready, you can start working with the tasks in the `task_1` directory.
 
-## Programm ausführen
+## Development Environment
 
-Sie können das Programm direkt im Browser bearbeiten und ausführen:
+The environment comes pre-configured with:
+- Python 3.10
+- Wikipedia API client
+- ReportLab PDF generation library
+- Code formatting (Black)
+- Code linting (Pylint)
+- Import sorting (isort)
+- Type checking
 
-1. Klicken Sie auf den "In Codespace öffnen" Button oben
-2. Warten Sie, bis die Entwicklungsumgebung geladen ist (alle Abhängigkeiten werden automatisch installiert)
-3. Öffnen Sie die Datei `main.py` und führen Sie sie aus durch:
-   ```
-   python main.py
-   ```
-
-## Aufgabenstellung
-
-Implementieren Sie die fehlenden Features im `main.py` File:
-
-1. Feature 1: [Ihre Aufgabe hier]
-2. Feature 2: [Ihre Aufgabe hier]
-3. Feature 3: [Ihre Aufgabe hier]
-
-## Dateien
-
-- `main.py`: Das Python-Skript zum Herunterladen von Wikipedia-Artikeln und Konvertieren in PDF
-- `requirements.txt`: Liste der benötigten Python-Pakete
+All dependencies will be automatically installed when you open the project in Codespaces.
