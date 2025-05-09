@@ -2,6 +2,8 @@
 from reportlab.pdfgen import canvas
 import wikipedia
 import warnings
+import os  # Füge os import hinzu
+
 warnings.catch_warnings()
 warnings.simplefilter("ignore")
 
@@ -15,8 +17,11 @@ def newY(y):
     return newY
 
 def createPDF(title, link, summary):
-
-    pdf = canvas.Canvas(title+".pdf")
+    # Erstelle den PDF-Pfad im task_1 Ordner
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    pdf_path = os.path.join(current_dir, title + ".pdf")
+    
+    pdf = canvas.Canvas(pdf_path)
     pdf.setPageSize((2480 ,3508))
     pdf.setFont("Helvetica", 40)
 
