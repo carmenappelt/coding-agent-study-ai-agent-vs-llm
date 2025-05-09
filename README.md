@@ -1,8 +1,10 @@
-# Aufgabe 1: Wikipedia PDF Generator
+# Masterarbeit: Coding Agent Study
 
-Diese Aufgabe beinhaltet die Implementierung eines Wikipedia PDF Generators. Das Programm erlaubt es, Wikipedia-Artikel zu suchen und als PDF zu speichern.
+Dieses Repository enthält die Implementierungsaufgaben für die Studie.
 
-Klicken Sie auf den Button unten, um die Entwicklungsumgebung direkt im Browser zu öffnen:
+## Aufgabe 1: Wikipedia PDF Generator
+
+Die Aufgabe finden Sie im Ordner `task_1`. 
 
 [![In Codespace öffnen](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=task1-only&repo=carmenappelt/coding-agent-study-ai-agent-vs-llm)
 
