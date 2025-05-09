@@ -21,7 +21,6 @@ var/
 *.egg
 
 # PDF files (output files)
-*.pdf
 
 # VS Code
 .vscode/
@@ -31,4 +30,3 @@ var/
 .env
 venv/
 ENV/
-*.pdf
