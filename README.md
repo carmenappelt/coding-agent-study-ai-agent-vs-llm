@@ -2,6 +2,8 @@
 
 This project allows you to search for Wikipedia articles and generate PDFs from them.
 
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/carmenappelt/coding-agent-study-ai-agent-vs-llm)
+
 ## Online Editing
 
 You can edit this project directly in your browser:
