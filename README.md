@@ -1,35 +1,29 @@
-# Wikipedia PDF Generator
+# Aufgabe 1: Wikipedia PDF Generator
 
-This project allows you to search for Wikipedia articles and generate PDFs from them.
+Diese Aufgabe beinhaltet die Implementierung eines Wikipedia PDF Generators. Das Programm erlaubt es, Wikipedia-Artikel zu suchen und als PDF zu speichern.
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/carmenappelt/coding-agent-study-ai-agent-vs-llm)
+[![In Codespace öffnen](https://github.com/codespaces/badge.svg)](https://codespaces.new/carmenappelt/coding-agent-study-ai-agent-vs-llm/tree/task1-only)
 
-## Online Editing
+## Programm ausführen
 
-You can edit this project directly in your browser:
+Sie können das Programm direkt im Browser bearbeiten und ausführen:
 
-1. Go to the GitHub repository
-2. Navigate to the file you want to edit
-3. Click the pencil icon (✏️) in the top right corner of the file view
-4. Make your changes
-5. At the bottom of the page, add a description of your changes
-6. Click "Commit changes"
-
-## Local Setup
-
-If you want to run this project locally:
-
-1. Clone the repository
-2. Install the requirements:
+1. Klicken Sie auf den "In Codespace öffnen" Button oben
+2. Warten Sie, bis die Entwicklungsumgebung geladen ist (alle Abhängigkeiten werden automatisch installiert)
+3. Öffnen Sie die Datei `main.py` und führen Sie sie aus durch:
    ```
-   pip install -r requirements.txt
-   ```
-3. Run the script:
-   ```
-   python task1/main.py
+   python main.py
    ```
 
-## Files
+## Aufgabenstellung
 
-- `task1/main.py`: The main Python script that downloads Wikipedia articles and converts them to PDF
-- `requirements.txt`: List of Python dependencies
+Implementieren Sie die fehlenden Features im `main.py` File:
+
+1. Feature 1: [Ihre Aufgabe hier]
+2. Feature 2: [Ihre Aufgabe hier]
+3. Feature 3: [Ihre Aufgabe hier]
+
+## Dateien
+
+- `main.py`: Das Python-Skript zum Herunterladen von Wikipedia-Artikeln und Konvertieren in PDF
+- `requirements.txt`: Liste der benötigten Python-Pakete
