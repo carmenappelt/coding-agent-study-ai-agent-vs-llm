@@ -1,35 +1,24 @@
-# Wikipedia PDF Generator
+# Coding Agent Study: AI Agent vs LLM
 
-This project allows you to search for Wikipedia articles and generate PDFs from them.
+[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?hide_repo_select=true&ref=main&repo=carmenappelt/coding-agent-study-ai-agent-vs-llm)
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/carmenappelt/coding-agent-study-ai-agent-vs-llm)
+This repository contains the code and resources for the coding agent study comparing AI agents and LLMs.
 
-## Online Editing
+## Quick Start
 
-You can edit this project directly in your browser:
+1. Click the "Open in GitHub Codespaces" button above to start working with this project immediately.
+2. The development environment will be automatically set up with all necessary dependencies and tools.
+3. Once the environment is ready, you can start working with the tasks in the `task_1` directory.
 
-1. Go to the GitHub repository
-2. Navigate to the file you want to edit
-3. Click the pencil icon (✏️) in the top right corner of the file view
-4. Make your changes
-5. At the bottom of the page, add a description of your changes
-6. Click "Commit changes"
+## Development Environment
 
-## Local Setup
+The environment comes pre-configured with:
+- Python 3.10
+- Wikipedia API client
+- ReportLab PDF generation library
+- Code formatting (Black)
+- Code linting (Pylint)
+- Import sorting (isort)
+- Type checking
 
-If you want to run this project locally:
-
-1. Clone the repository
-2. Install the requirements:
-   ```
-   pip install -r requirements.txt
-   ```
-3. Run the script:
-   ```
-   python task1/main.py
-   ```
-
-## Files
-
-- `task1/main.py`: The main Python script that downloads Wikipedia articles and converts them to PDF
-- `requirements.txt`: List of Python dependencies
+All dependencies will be automatically installed when you open the project in Codespaces.
