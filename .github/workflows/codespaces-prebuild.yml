@@ -1,18 +1,1 @@
-name: Codespaces Prebuild
 
-on:
-  push:
-    branches: [ "main" ]
-  schedule:
-    - cron: '0 0 * * 0'  # Weekly on Sundays at midnight
-
-jobs:
-  prebuild:
-    name: Create Codespaces Prebuild
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: github/codespaces-prebuilds@v1
-        with:
-          define-regions: false  # Set to true if you want to define specific regions
-          max-parallelism: 4    # Limit parallel executions to reduce costs
